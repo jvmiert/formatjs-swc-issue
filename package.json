@@ -11,7 +11,8 @@
     "i18n:compile": "formatjs compile-folder lang compiled-lang"
   },
   "dependencies": {
-    "next": "latest",
+    "@formatjs/swc-plugin-experimental": "^0.3.6",
+    "next": "^13.3.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-intl": "6.1.1"
